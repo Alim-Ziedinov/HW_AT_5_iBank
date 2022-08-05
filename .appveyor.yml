@@ -12,6 +12,11 @@ build: off
 
 install:
   - java -jar ./artifacts/app-ibank.jar -P:profile=test &
+<<<<<<< HEAD
+=======
+ 
+
+>>>>>>> c86e8e5f694b5c86d2316326d166e096a628a282
 build_script:
   - chmod +x gradlew
   - ./gradlew test -Dselenide.headless=true --info
