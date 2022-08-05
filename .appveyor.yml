@@ -11,8 +11,12 @@ build: off
 
 
 install:
+<<<<<<< HEAD
   - java -jar artifacts/app-ibank.jar -P:profile=test &
   - Dfile.encoding=UTF8
+=======
+  - java -jar ./artifacts/app-ibank.jar -P:profile=test &
+>>>>>>> ffda75cb9d6667cafe3fdec56cd2325b6bb0fcfa
 
 build_script:
   - chmod +x gradlew
